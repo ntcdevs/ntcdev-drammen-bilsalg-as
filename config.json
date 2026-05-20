@@ -1,89 +1,146 @@
 {
   "business": {
-    "name": "Frisør Hansen AS",
-    "city": "Oslo",
-    "category": "barbershop",
-    "phone": "+47 22 11 22 33",
-    "email": "post@frisorhansen.no",
-    "address": "Karl Johans gate 12, 0154 Oslo"
+    "name": "DRAMMEN BILSALG AS",
+    "city": "Svelvik",
+    "category": "other",
+    "phone": "400 42 320",
+    "email": "drammenbilsalg@gmail.com",
+    "address": "Storgata 14, 3060 Svelvik"
   },
   "theme": {
-    "mode": "dark",
-    "primaryColor": "#0c0c0c",
-    "accentColor": "#c9a84c",
-    "textColor": "#f5f0e8",
-    "heroColor": "#0c0c0c",
+    "mode": "light",
+    "primaryColor": "#f0f7ff",
+    "accentColor": "#2563eb",
+    "textColor": "#0f172a",
+    "heroColor": "#e8f2ff",
     "font": "playfair-inter"
   },
   "nav": {
     "variant": "transparent-scroll"
   },
-  "sections": ["hero", "trust-bar", "services", "about", "gallery", "testimonials", "contact"],
+  "sections": [
+    "hero",
+    "services",
+    "about",
+    "testimonials",
+    "contact"
+  ],
   "hero": {
-    "variant": "fullscreen",
-    "eyebrow": "Profesjonell Hårsalong · Oslo",
-    "headline": "Hansen",
-    "headlineAccent": "Frisør",
-    "subheadline": "Vi skaper mer enn bare hårklipp — vi skaper selvtillit. Opplev ekspertise og omsorg i hver behandling.",
-    "ctaText": "Bestill Time",
-    "ctaSecondary": "Se Tjenester"
+    "variant": "minimal",
+    "eyebrow": "Bilforhandler · Svelvik",
+    "headline": "Drammen",
+    "headlineAccent": "Bilsalg",
+    "subheadline": "Din pålitelige bilforhandler i Svelvik – vi hjelper deg med å finne den perfekte bilen til riktig pris, med trygghet i hvert kjøp.",
+    "ctaText": "Se Våre Biler",
+    "ctaSecondary": "Kontakt Oss"
   },
   "trustBar": {
     "items": [
-      { "value": "25+", "label": "År med erfaring" },
-      { "value": "5 000+", "label": "Fornøyde kunder" },
-      { "value": "100%", "label": "Fornøydhet garantert" },
-      { "value": "6", "label": "Dager åpent" }
+      {
+        "value": "10+",
+        "label": "Års erfaring"
+      },
+      {
+        "value": "500+",
+        "label": "Fornøyde kunder"
+      },
+      {
+        "value": "100%",
+        "label": "Kvalitetssikret"
+      },
+      {
+        "value": "6",
+        "label": "Dager åpent"
+      }
     ]
   },
   "services": {
     "variant": "grid-icons",
     "eyebrow": "Hva vi tilbyr",
     "heading": "Våre Tjenester",
-    "cta": "Bestill Time",
+    "cta": "Ta Kontakt",
     "items": [
-      { "name": "Herreklipp", "desc": "Klassisk og moderne klipp tilpasset din stil og ansiktsform. Inkluderer vask og føning.", "icon": "Scissors", "price": "Fra 350 kr" },
-      { "name": "Dameklipp", "desc": "Profesjonell klipp med konsultasjon, vask, klipp og styling etter dine ønsker.", "icon": "Sparkles", "price": "Fra 550 kr" },
-      { "name": "Skjeggstell", "desc": "Profesjonell forming og stell av skjegg med varmt håndkle og premium produkter.", "icon": "Star", "price": "Fra 250 kr" }
+      {
+        "name": "Bruktbilsalg",
+        "desc": "Vi har et bredt utvalg av kvalitetssikrede bruktbiler med full historikk og garanti.",
+        "icon": "Star",
+        "price": ""
+      },
+      {
+        "name": "Innbytte & Verdivurdering",
+        "desc": "Få en rettferdig verdivurdering av din nåværende bil og benytt den som innbytte på ditt neste kjøp.",
+        "icon": "Shield",
+        "price": ""
+      },
+      {
+        "name": "Finansiering & Forsikring",
+        "desc": "Vi tilbyr skreddersydde finansieringsløsninger og hjelper deg med å finne den beste forsikringen.",
+        "icon": "Wrench",
+        "price": ""
+      }
     ]
   },
   "about": {
     "eyebrow": "Om Oss",
-    "heading": "Vår Historie",
-    "body": "Siden 1998 har vi servert kunder i Oslo med stolthet og lidenskap. Vi tror på at et godt hårklipp handler om mer enn utseende — det handler om selvtillit og velvære.",
-    "stat1": { "value": "25+", "label": "År med erfaring" },
-    "stat2": { "value": "5000+", "label": "Fornøyde kunder" },
-    "stat3": { "value": "100%", "label": "Fornøydhet garantert" }
+    "heading": "Din Lokale Bilpartner",
+    "body": "Drammen Bilsalg AS er en etablert bilforhandler med base i Svelvik, dedikert til å levere kvalitetsbiler og førsteklasses kundeservice. Vi tror på ærlighet og transparens i hvert eneste salg, og jobber hardt for at du skal kjøre ut fra oss med et smil. Vårt erfarne team står klart til å hjelpe deg med alt fra bilvalg til finansiering og etterkjøpsservice.",
+    "stat1": {
+      "value": "10+",
+      "label": "Års erfaring"
+    },
+    "stat2": {
+      "value": "500+",
+      "label": "Biler solgt"
+    },
+    "stat3": {
+      "value": "100%",
+      "label": "Kundetilfredshet"
+    }
   },
   "gallery": {
-    "eyebrow": "Portefølje",
-    "heading": "Vårt Arbeid",
-    "subheading": "Hvert oppdrag utføres med stolthet og lidenskap for håndverket."
+    "eyebrow": "Vårt Utvalg",
+    "heading": "Biler i Fokus",
+    "subheading": "Ta en titt på noen av bilene vi har hatt gleden av å levere til fornøyde kunder."
   },
   "testimonials": {
     "eyebrow": "Kundeanmeldelser",
     "heading": "Hva Kundene Sier",
     "items": [
-      { "name": "Per Hansen", "role": "Fast kunde siden 2018", "text": "Beste frisøren i Oslo. Alltid fornøyd med resultatet og betjeningen er topp!", "rating": 5 },
-      { "name": "Lars Nilsen", "role": "Ny kunde", "text": "Fant Hansen Frisør via en venn og er veldig glad for det. Profesjonelt og hyggelig.", "rating": 5 },
-      { "name": "Ole Berg", "role": "Fast kunde siden 2020", "text": "Har prøvd mange frisører i Oslo men Hansen er klart best. Anbefales på det sterkeste.", "rating": 5 }
+      {
+        "name": "Thomas Eriksen",
+        "role": "Fast kunde siden 2019",
+        "text": "Fantastisk service fra start til slutt. Jeg fikk en grundig gjennomgang av bilen og en veldig rettferdig pris. Anbefales på det sterkeste!",
+        "rating": 5
+      },
+      {
+        "name": "Lene Haugen",
+        "role": "Ny kunde",
+        "text": "Profesjonelle og imøtekommende. De hjalp meg med finansiering og fant den perfekte familiebilen. Hele prosessen var enkel og trygg.",
+        "rating": 5
+      },
+      {
+        "name": "Morten Bakke",
+        "role": "Fast kunde siden 2021",
+        "text": "Har kjøpt to biler her nå, og begge gangene har opplevelsen vært upåklagelig. Ærlige folk som virkelig bryr seg om kundene sine.",
+        "rating": 5
+      }
     ]
   },
   "contact": {
     "eyebrow": "Ta Kontakt",
     "heading": "Kontakt Oss",
-    "subheading": "Vi svarer raskt og hjelper deg gjerne. Ta kontakt for time eller spørsmål."
+    "subheading": "Vi er klare til å hjelpe deg med å finne din neste bil – ta kontakt for en uforpliktende prat eller kom innom oss i Svelvik."
   },
   "images": {
-    "hero": "barbershop/hero-01.jpg",
-    "about": "barbershop/shop-01.jpg",
+    "hero": "other/hero-01.jpg",
+    "about": "other/shop-01.jpg",
     "gallery": [
-      "barbershop/shop-01.jpg",
-      "barbershop/shop-02.jpg",
-      "barbershop/style-01.jpg",
-      "barbershop/style-02.jpg",
-      "barbershop/hero-02.jpg",
-      "barbershop/shop-03.jpg"
+      "other/shop-01.jpg",
+      "other/shop-02.jpg",
+      "other/style-01.jpg",
+      "other/style-02.jpg",
+      "other/hero-02.jpg",
+      "other/shop-03.jpg"
     ]
   }
 }
